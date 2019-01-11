@@ -1,4 +1,4 @@
-# vue-native-websocket &middot; [![Build Status](https://travis-ci.org/nathantsoi/vue-native-websocket.svg?branch=master)](https://travis-ci.org/nathantsoi/vue-native-websocket) [![npm version](https://img.shields.io/npm/v/vue-native-websocket.svg?style=flat)](https://www.npmjs.com/package/vue-native-websocket-es5)
+# vue-native-websocket-es5 &middot; [![Build Status](https://travis-ci.org/nathantsoi/vue-native-websocket-es5.svg?branch=master)](https://travis-ci.org/nathantsoi/vue-native-websocket-es5) [![npm version](https://img.shields.io/npm/v/vue-native-websocket-es5.svg?style=flat)](https://www.npmjs.com/package/vue-native-websocket-es5)
 
 native websocket implementation for Vuejs 2 and Vuex
 
