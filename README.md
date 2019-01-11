@@ -1,15 +1,15 @@
-# vue-native-websocket &middot; [![Build Status](https://travis-ci.org/nathantsoi/vue-native-websocket.svg?branch=master)](https://travis-ci.org/nathantsoi/vue-native-websocket) [![npm version](https://img.shields.io/npm/v/vue-native-websocket.svg?style=flat)](https://www.npmjs.com/package/vue-native-websocket)
+# vue-native-websocket &middot; [![Build Status](https://travis-ci.org/nathantsoi/vue-native-websocket.svg?branch=master)](https://travis-ci.org/nathantsoi/vue-native-websocket) [![npm version](https://img.shields.io/npm/v/vue-native-websocket.svg?style=flat)](https://www.npmjs.com/package/vue-native-websocket-es5)
 
 native websocket implementation for Vuejs 2 and Vuex
 
 ## Install
 
 ``` bash
-yarn add vue-native-websocket
+yarn add vue-native-websocket-es5
 
 # or
 
-npm install vue-native-websocket --save
+npm install vue-native-websocket-es5 --save
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ npm install vue-native-websocket --save
 Automatic socket connection from an URL string
 
 ``` js
-import VueNativeSock from 'vue-native-websocket'
+import VueNativeSock from 'vue-native-websocket-es5'
 Vue.use(VueNativeSock, 'ws://localhost:9090')
 ```
 
@@ -33,7 +33,7 @@ Vue.use(VueNativeSock, 'ws://localhost:9090', { store: store })
 Set sub-protocol, this is optional option and default is empty string.
 
 ``` js
-import VueNativeSock from 'vue-native-websocket'
+import VueNativeSock from 'vue-native-websocket-es5'
 Vue.use(VueNativeSock, 'ws://localhost:9090', { protocol: 'my-protocol' })
 ```
 
