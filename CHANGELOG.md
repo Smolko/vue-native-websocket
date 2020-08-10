@@ -2,6 +2,9 @@
 
 This package is [semantic versioned](http://semver.org/)
 
+## 2.0.14
+- [feature]: Added missing polyfills
+
 ## 2.0.13
 - [feature]: ES5 compatibility
 

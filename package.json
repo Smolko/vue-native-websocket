@@ -1,6 +1,6 @@
 {
-  "name": "vue-native-websocket",
-  "version": "2.0.13",
+  "name": "vue-native-websocket-es5",
+  "version": "2.0.14",
   "description": "native websocket implemantation for vuejs and vuex",
   "main": "dist/build.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nathantsoi/vue-native-websocket.git"
+    "url": "git+https://github.com/Smolko/vue-native-websocket.git"
   },
   "keywords": [
     "vuejs",
@@ -26,18 +26,18 @@
   "author": "Nathan Tsoi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nathantsoi/vue-native-websocket/issues"
+    "url": "https://github.com/Smolko/vue-native-websocket-es5/issues"
   },
-  "homepage": "https://github.com/nathantsoi/vue-native-websocket#readme",
+  "homepage": "https://github.com/Smolko/vue-native-websocket-es5#readme",
   "devDependencies": {
     "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
-    "chai": "^4.0.2",
+    "chai": "^4.2.0",
     "eslint": "^3.19.0",
     "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^4.2.2",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
@@ -55,8 +55,9 @@
     "script-loader": "^0.7.0",
     "sinon": "^2.3.6",
     "sinon-chai": "^2.11.0",
-    "vue": "^2.3.4",
+    "vue": "^2.6.11",
     "webpack": "^3.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }

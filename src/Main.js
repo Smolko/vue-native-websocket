@@ -1,3 +1,4 @@
+import './polyfills'
 import Observer from './Observer'
 import Emitter from './Emitter'
 

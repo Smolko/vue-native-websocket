@@ -1,5 +1,8 @@
 # vue-native-websocket-es5 &middot; [![Build Status](https://travis-ci.org/nathantsoi/vue-native-websocket-es5.svg?branch=master)](https://travis-ci.org/nathantsoi/vue-native-websocket-es5) [![npm version](https://img.shields.io/npm/v/vue-native-websocket-es5.svg?style=flat)](https://www.npmjs.com/package/vue-native-websocket-es5)
 
+Fork of https://github.com/nathantsoi/vue-native-websocket#readme
+but without using ES6 Proxy
+
 native websocket implementation for Vuejs 2 and Vuex
 
 ## Install
@@ -81,10 +84,10 @@ vm.$disconnect()
 var vm = new Vue({
   methods: {
     clickButton: function(val) {
-        // $socket is [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket) instance
-        this.$socket.send('some data')
-        // or with {format: 'json'} enabled
-        this.$socket.sendObj({awesome: 'data'})
+      // $socket is [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket) instance
+      this.$socket.send('some data')
+      // or with {format: 'json'} enabled
+      this.$socket.sendObj({awesome: 'data'})
     }
   }
 })

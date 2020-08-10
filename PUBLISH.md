@@ -14,4 +14,4 @@
 
 - make a github release with head on master, named `v[SEM_VERSION]` e.g. `v2.0.5`
 
-- run `npm publish` to push the latest version to https://www.npmjs.com/package/vue-native-websocket
+- run `npm publish` to push the latest version to https://www.npmjs.com/package/vue-native-websocket-es5
